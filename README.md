@@ -1,20 +1,6 @@
 # Vorlesung-GUI-2016
 Vorlesung Grafische Benutzeroberflächen 2016
 
-### Allgemeines
-
-Verantwortlich: Prof. Dr. Reiner Hüttl 
-Studiengang: B.Sc. Informatik, Schwerpunkt Software Engineering
-Studiensemester: Informatik: S 4. Semester
-Sprache: Deutsch 
-Lehrform/SWS: 2 SWS Vorlesung
-Arbeitsaufwand: 150 h Gesamt-Workload davon
-Leistungspunkte: 5 ECTS 
-Medienform: Präsentation Beamer und Overhead-Projektor
-Prüfung: siehe Leistungsnachweisankündigung 
-B.Sc. Informatik
-B.Sc. Wirtschaftsinformatik 
-
 ### Empfohlene Voraussetzungen
 
 Solide Kenntnisse der objektorientierten Programmierung in Java
