@@ -22,7 +22,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 ### Inhalt
 
-#### 1. Grundlagen grafischer Oberflächen
+#### 1. <a href="docbase/00-Grundlagen.pdf">Grundlagen grafischer Oberflächen</a>
 
 - Historischer Überblick
 - Typen grafischer Oberflächen (Terminal, Mobil, Web, Rich-Client)
