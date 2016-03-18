@@ -30,6 +30,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Ergonomie und Angemessenheit
 - Programmierte und deklarierte Oberflächen
 
+Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-01-Arbeitsfaehigkeit.pdf">hier</a>
+
 #### 2. Komponenten und Layout
 
 - Gestaltungsregeln
