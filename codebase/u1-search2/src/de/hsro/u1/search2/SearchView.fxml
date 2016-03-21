@@ -6,14 +6,14 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox maxHeight="-Infinity" 
+<HBox xmlns:fx="http://javafx.com/fxml/1"  
+      fx:controller="de.hsro.u1.search2.SearchViewController" 
+      maxHeight="-Infinity" 
       maxWidth="-Infinity"
       minHeight="-Infinity" 
-      minWidth="-Infinity" 
-      xmlns="http://javafx.com/javafx/8" 
-      xmlns:fx="http://javafx.com/fxml/1">
+      minWidth="-Infinity">
     <children>
         <TextField fx:id="searchText" promptText="Enter a expression" />
-        <Button fx:id="searchButton" mnemonicParsing="false" text="Search" />
+        <Button fx:id="searchButton" onAction="#onSearchButtonClicked"  mnemonicParsing="false" text="Search" />
     </children>
 </HBox>
