@@ -22,6 +22,13 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 ### Inhalt
 
+#### 0. <a href="docbase/00-Orga.pdf">Organisatorisches SS2016</a>
+- Ablauf von Vorlesung und Übung
+- Themen und Termine
+- Hinweise zur verwendeten Software
+- Literatur
+
+
 #### 1. <a href="docbase/01-Grundlagen.pdf">Grundlagen grafischer Oberflächen</a>
 
 - Historischer Überblick
