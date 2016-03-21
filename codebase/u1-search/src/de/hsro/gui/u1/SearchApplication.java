@@ -35,6 +35,5 @@ public class SearchApplication extends Application {
         Scene scene = new Scene(new SearchView());
         primaryStage.setScene(scene);
         primaryStage.show();
-    }
-    
+    }  
 }

@@ -35,7 +35,7 @@ public class SearchView extends HBox {
         searchButton.disableProperty().bind(
                 searchText.textProperty().isEmpty()
         );
-       
+        
         getChildren().addAll(searchText, searchButton);
     }
 
