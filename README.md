@@ -39,7 +39,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-01-Arbeitsfaehigkeit.pdf">hier</a>
 
-#### 2. Komponenten und Layout
+#### 2. <a href="docbase/02-Komponenten-und-Layout.pdf">Gestaltungsregeln und Layout - Überblick JavaFX</a>
 
 - Gestaltungsregeln
 - Grafischer Entwurf - Methoden und Werkzeuge (Styleguides, Mockups)
