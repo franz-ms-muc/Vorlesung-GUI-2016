@@ -49,8 +49,8 @@ Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-01-Arbeitsfaehigkeit.
 - Layout-Management 
 
 Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-02-Gridlayout.pdf">hier</a>
-
-<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme">
+Die Musterlösung finden Sie hier: 
+<a href="codebase/U2-gridlayout"><img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
 
 #### 3. Eventgesteuerte Programmierung
 - Kontrollfluss in grafischen Oberflächen
