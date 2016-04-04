@@ -50,7 +50,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
  <a href="docbase/U-02-Gridlayout.pdf">Übungsblatt 2</a>
 
-<a href="codebase/u2-gridlayout/">Musterlösung 2<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
+ <a href="codebase/u2-gridlayout/">Musterlösung 2<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
 
 #### 3. Eventgesteuerte Programmierung
 - Kontrollfluss in grafischen Oberflächen
