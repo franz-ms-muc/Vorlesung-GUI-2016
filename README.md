@@ -50,6 +50,8 @@ Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-01-Arbeitsfaehigkeit.
 
 Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-02-Gridlayout.pdf">hier</a>
 
+<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme">
+
 #### 3. Eventgesteuerte Programmierung
 - Kontrollfluss in grafischen Oberflächen
 - Begriffe der Eventverarbeitung
