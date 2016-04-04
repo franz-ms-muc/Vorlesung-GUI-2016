@@ -48,6 +48,8 @@ Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-01-Arbeitsfaehigkeit.
 - Komponenten und Container, Exkurs: Composite-Muster 
 - Layout-Management 
 
+Das zugehoerige Übungsblatt finden Sie <a href="docbase/U-02-Gridlayout.pdf">hier</a>
+
 #### 3. Eventgesteuerte Programmierung
 - Kontrollfluss in grafischen Oberflächen
 - Begriffe der Eventverarbeitung
