@@ -52,7 +52,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u2-gridlayout/">Musterlösung 2<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
 
-#### 3. Eventgesteuerte Programmierung
+#### 3. <a href="docbase/03-Events.pdf">Eventgesteuerte Programmierung</a>
 - Kontrollfluss in grafischen Oberflächen
 - Begriffe der Eventverarbeitung
 - Eventverarbeitung in hierarchischen Oberflächen (Bubbling und Capturing)
@@ -61,6 +61,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Zustellung von Ereignissen
 - Behandlung von Ereignissen (Handler, Event-Hierarchie)  
 - Datenhaltung, Benachrichtigung und Binding
+
+<a href="docbase/U-03-Events.pdf">Übungsblatt 3</a>
 
 #### 4. Probleme beim Datenhaushalt
 - Das Observer-Muster
