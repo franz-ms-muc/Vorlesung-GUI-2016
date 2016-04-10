@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+ _____________________________________________________________________________
+ 
+            Project:    GUI2016
+  _____________________________________________________________________________
+  
+         Created by:    Johannes Weigend, QAware GmbH
+      Creation date:    April 2016
+  _____________________________________________________________________________
+  
+          License:      Apache License 2.0
+  _____________________________________________________________________________ 
+ -->
 
 <?import java.lang.String?>
 <?import javafx.collections.FXCollections?>
@@ -41,7 +54,7 @@
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxSeries" editable="true" maxWidth="1.7976931348623157E308" minWidth="-1.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" minWidth="-1.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="2013-02-28-17-28-47" />
@@ -49,11 +62,11 @@
         </items>
     </ComboBox>
     
-    <Label fx:id="labelMetric" alignment="CENTER_RIGHT" minWidth="-Infinity" text="Metric" GridPane.columnIndex="2">
+    <Label alignment="CENTER_RIGHT" minWidth="-Infinity" text="Metric" GridPane.columnIndex="2">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxMetric" editable="true" maxWidth="1.7976931348623157E308" prefWidth="200.0" GridPane.columnIndex="3">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" prefWidth="200.0" GridPane.columnIndex="3">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="java.lang.memory:HeapMemoryUsed" />
@@ -65,7 +78,7 @@
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxSampling" editable="false" maxWidth="1024.0" GridPane.columnIndex="5">
+    <ComboBox editable="false" maxWidth="1024.0" GridPane.columnIndex="5">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="None" />
@@ -77,13 +90,13 @@
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <DatePicker fx:id="dtStart" prefWidth="181.0" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+    <DatePicker prefWidth="181.0" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
    
     <Label text="Measurement" GridPane.columnIndex="0" GridPane.rowIndex="1">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox id="cbMeasurment" fx:id="cbxMeasurement" editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.rowIndex="1">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="KW10-2016" />
@@ -93,17 +106,17 @@
         </items>
     </ComboBox>
     
-    <Label fx:id="labelExclude" alignment="CENTER_RIGHT" minWidth="-Infinity" text="Exclude" GridPane.columnIndex="2" GridPane.rowIndex="1">
+    <Label alignment="CENTER_RIGHT" minWidth="-Infinity" text="Exclude" GridPane.columnIndex="2" GridPane.rowIndex="1">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <TextField fx:id="txtExclude" disable="false" maxWidth="1.7976931348623157E308" prefColumnCount="12" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    <TextField disable="false" maxWidth="1.7976931348623157E308" prefColumnCount="12" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
     
     <Label text="Aggregation" GridPane.columnIndex="4" GridPane.rowIndex="1">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxAggregation" editable="false" maxWidth="1024.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+    <ComboBox editable="false" maxWidth="1024.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="None" />
@@ -121,7 +134,7 @@
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxHost" editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="liapp39" />
@@ -129,13 +142,13 @@
         </items>
     </ComboBox>
     
-    <TextArea fx:id="txtExpertMode" disable="true" prefHeight="0.0" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2" />
+    <TextArea disable="true" prefHeight="0.0" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.rowSpan="2" />
     
     <Label text="Graph" GridPane.columnIndex="4" GridPane.rowIndex="2">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>    
-    <ComboBox fx:id="cbxGraph" editable="false" maxWidth="1024.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+    <ComboBox editable="false" maxWidth="1024.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="Line" />
@@ -144,35 +157,35 @@
             </FXCollections>
         </items>
     </ComboBox>
-    <Button fx:id="btCreateBookmark" minHeight="-1.0" minWidth="-1.0" mnemonicParsing="false" prefWidth="181.0" text="Create Bookmark" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+    <Button minHeight="-1.0" minWidth="-1.0" mnemonicParsing="false" prefWidth="181.0" text="Create Bookmark" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
     
     <Label text="Process" GridPane.columnIndex="0" GridPane.rowIndex="3">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxProcess" editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="wls" />
             </FXCollections>
         </items>
     </ComboBox>
-    <SplitMenuButton fx:id="btAddToGraph" alignment="CENTER" mnemonicParsing="false" prefWidth="181.0" text="Add to Graph" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="3">
+    <SplitMenuButton alignment="CENTER" mnemonicParsing="false" prefWidth="181.0" text="Add to Graph" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="3">
         <items>
-            <MenuItem fx:id="btclearGraph" disable="false" mnemonicParsing="false" text="Remove all added metrics" visible="true" />
+            <MenuItem disable="false" mnemonicParsing="false" text="Remove all added metrics" visible="true" />
         </items>
     </SplitMenuButton>
     <Label text="Type" GridPane.columnIndex="0" GridPane.rowIndex="4">
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <ComboBox fx:id="cbxGroup" editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
+    <ComboBox editable="true" maxWidth="1.7976931348623157E308" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
         <items>
             <FXCollections fx:factory="observableArrayList">
                 <String fx:value="solis-jmx" />
             </FXCollections>
         </items>
     </ComboBox>
-    <CheckBox fx:id="rbExpertMode" mnemonicParsing="false" text="Expert Mode (Lucene Query Language)" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-    <Button fx:id="btGenerateGraph" defaultButton="true" minWidth="-1.0" mnemonicParsing="false" prefWidth="181.0" text="Generate Graph" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+    <CheckBox mnemonicParsing="false" text="Expert Mode (Lucene Query Language)" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    <Button defaultButton="true" minWidth="-1.0" mnemonicParsing="false" prefWidth="181.0" text="Generate Graph" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
 </GridPane>
