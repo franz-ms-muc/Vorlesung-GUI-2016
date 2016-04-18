@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1"  
+      fx:controller="de.hsro.u1.search2.SearchViewController" 
+      maxHeight="-Infinity" 
+      maxWidth="-Infinity"
+      minHeight="-Infinity" 
+      minWidth="-Infinity">
+    <children>
+        <TextField fx:id="searchText" promptText="Enter a expression" />
+        <Button fx:id="searchButton" onAction="#onSearchButtonClicked"  mnemonicParsing="false" text="Search" />
+    </children>
+</HBox>
