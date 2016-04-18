@@ -128,7 +128,7 @@
       <GridPane.margin>
          <Insets left="10.0" />
       </GridPane.margin></Label>
-    <DatePicker fx:id="dtEnd" prefWidth="181.0" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
+    <DatePicker prefWidth="181.0" GridPane.columnIndex="7" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" />
     
     <Label text="Host" GridPane.columnIndex="0" GridPane.rowIndex="2">
       <GridPane.margin>
