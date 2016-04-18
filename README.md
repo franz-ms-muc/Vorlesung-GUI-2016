@@ -66,13 +66,15 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u3-events/">Musterlösung 3</a>
 
-#### 4. Probleme beim Datenhaushalt
+#### 4. <a href="docbase/04-MVx.pdf">Probleme beim Datenhaushaltg</a>
 - Das Observer-Muster
 - Model-View-Controller – das klassische Modell
 - Model-View-Presenter
 - Technische Umsetzung
 - JavaFX Properties
 - JavaFX Binding
+
+<a href="docbase/U-04-MVx.pdf">Übungsblatt 4</a>
 
 #### 5. GUI Komponenten und Wiederverwendung
 - Grundprinzipien und Architektur
