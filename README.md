@@ -64,6 +64,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-03-Events.pdf">Übungsblatt 3</a>
 
+<a href="codebase/u3-events/">Musterlösung 3</a>
+
 #### 4. Probleme beim Datenhaushalt
 - Das Observer-Muster
 - Model-View-Controller – das klassische Modell
