@@ -117,12 +117,12 @@ public class HeaderController implements Initializable {
         metric.getEditor().textProperty().bindBidirectional(model.getMetricProperty());
         
         // r/w Comboboxes: Lists
-        series.setItems(model.getFilters().getSeries());
-        host.setItems(model.getFilters().getHosts());
-        process.setItems(model.getFilters().getProcesses());
-        type.setItems(model.getFilters().getTypes());
-        measurement.setItems(model.getFilters().getMeasurements());           
-        metric.setItems(model.getFilters().getMetrics());
+        series.itemsProperty().bind(model.getFilters().getSeriesProperty());
+        host.itemsProperty().bind(model.getFilters().getHostsProperty());
+        process.itemsProperty().bind(model.getFilters().getProcessesProperty());
+        type.itemsProperty().bind(model.getFilters().getTypesProperty());
+        measurement.itemsProperty().bind(model.getFilters().getMeasurementsProperty());
+        metric.itemsProperty().bind(model.getFilters().getMetricsProperty());
         
         // r/o Comboboxes: Selected value
         bindROComboBox(model.getSamplingProperty(), sampling);
@@ -130,10 +130,10 @@ public class HeaderController implements Initializable {
         bindROComboBox(model.getGraphProperty(), graph);
         
         // r/o Comboboxes: Lists
-        sampling.setItems(model.getFilters().getSamplings());
-        aggregation.setItems(model.getFilters().getAggregations());
-        sampling.setItems(model.getFilters().getSamplings());
- 
+        sampling.itemsProperty().bind(model.getFilters().getSamplingsProperty());
+        aggregation.itemsProperty().bind(model.getFilters().getAggregationsProperty());
+        sampling.itemsProperty().bind(model.getFilters().getSamplingsProperty());
+        
         // text 
         exclude.textProperty().bindBidirectional(model.getExcludeProperty());
         

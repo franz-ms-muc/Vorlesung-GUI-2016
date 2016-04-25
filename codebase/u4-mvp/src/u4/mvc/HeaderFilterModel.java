@@ -1,5 +1,4 @@
 /*
-/*
  _____________________________________________________________________________
  
             Project:    GUI 2016
@@ -12,78 +11,77 @@
           License:      Apache License 2.0
   _____________________________________________________________________________ 
  */
-
 package u4.mvc;
 
+import javafx.beans.property.ListProperty;
+import javafx.beans.property.SimpleListProperty;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 /**
- *
+ * Filter Model contains all selectable list values in the combo boxes.
  * @author weigend
  */
 public class HeaderFilterModel {
 
     private static final String WILDCARD = "*";
-    
-    private final ObservableList series = FXCollections.observableArrayList();
-    private final ObservableList hosts = FXCollections.observableArrayList();
-    private final ObservableList processes = FXCollections.observableArrayList();
-    private final ObservableList measurements = FXCollections.observableArrayList();
-    private final ObservableList metrics = FXCollections.observableArrayList();
-    private final ObservableList types = FXCollections.observableArrayList();
-    private final ObservableList graphs = FXCollections.observableArrayList();
-    private final ObservableList samplings = FXCollections.observableArrayList();
-    private final ObservableList aggregations = FXCollections.observableArrayList();
-     
+
+    private final ListProperty series = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty hosts = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty processes = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty measurements = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty metrics = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty types = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty graphs = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty samplings = new SimpleListProperty(FXCollections.observableArrayList());
+    private final ListProperty aggregations = new SimpleListProperty(FXCollections.observableArrayList());
+
     public HeaderFilterModel() {
-        
+
         series.add(WILDCARD);
         hosts.add(WILDCARD);
         processes.add(WILDCARD);
         measurements.add(WILDCARD);
         metrics.add(WILDCARD);
         types.add(WILDCARD);
-        
+
         graphs.addAll("Line", "Sum", "Point");
         samplings.addAll("None", "Days", "Hours", "Minutes");
-        aggregations.addAll("None", "Avg", "Min", "Max");              
+        aggregations.addAll("None", "Avg", "Min", "Max");
     }
 
-
-    public ObservableList getSeries() {
+    public ListProperty getSeriesProperty() {
         return series;
     }
 
-    public ObservableList getHosts() {
+    public ListProperty getHostsProperty() {
         return hosts;
     }
 
-    public ObservableList getProcesses() {
+    public ListProperty getProcessesProperty() {
         return processes;
     }
 
-    public ObservableList getMeasurements() {
+    public ListProperty getMeasurementsProperty() {
         return measurements;
     }
 
-    public ObservableList getMetrics() {
+    public ListProperty getMetricsProperty() {
         return metrics;
     }
 
-    public ObservableList getTypes() {
+    public ListProperty getTypesProperty() {
         return types;
     }
 
-    public ObservableList getGraphs() {
+    public ListProperty getGraphsProperty() {
         return graphs;
     }
 
-    public ObservableList getSamplings() {
+    public ListProperty getSamplingsProperty() {
         return samplings;
     }
 
-    public ObservableList getAggregations() {
+    public ListProperty getAggregationsProperty() {
         return aggregations;
-    }    
+    }
 }
