@@ -76,7 +76,9 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-04-MVx.pdf">Übungsblatt 4</a>
 
-#### 5. GUI Komponenten und Wiederverwendung
+<a href="codebase/u4-mvp/">Musterlösung 4</a>
+
+#### 5. <a href="docbase/05-MVx-GUI-Komponenten.pdf">GUI Komponenten und Wiederverwendung</a>
 - Grundprinzipien und Architektur
 - Eigenschaften von Komponenten
 - MV* im Großen
@@ -84,6 +86,10 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Technische Umsetzung
 - Bau von GUI Komponenten mit JavaFX
 - Wiederverwendung und Schachtelung
+
+<a href="docbase/U-05-GUI-Komponenten.pdf">Übungsblatt 5</a>
+
+<a href="codebase/u5-mvp/">Musterlösung 5<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
 
 #### 6. Parallelverarbeitung in grafischen Oberflächen
 - Motivation – Warum ist parallele Verarbeitung notwendig?
