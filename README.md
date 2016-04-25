@@ -66,7 +66,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u3-events/">Musterlösung 3</a>
 
-#### 4. <a href="docbase/04-MVx.pdf">Probleme beim Datenhaushaltg</a>
+#### 4. <a href="docbase/04-MVx.pdf">Probleme beim Datenhaushalt</a>
 - Das Observer-Muster
 - Model-View-Controller – das klassische Modell
 - Model-View-Presenter
