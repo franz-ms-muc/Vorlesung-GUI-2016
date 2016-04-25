@@ -89,7 +89,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-05-GUI-Komponenten.pdf">Übungsblatt 5</a>
 
-<a href="codebase/u5-mvp/">Musterlösung 5<img src="docbase/U-02-Gridlayout.png" alt="Musterloesung mit Black CSS Theme"></a>
+<a href="codebase/u5-mvp/">Musterlösung 5<img src="docbase/U-05-GUI-Komponenten.png" alt="Musterloesung mit Black CSS Theme"></a>
 
 #### 6. Parallelverarbeitung in grafischen Oberflächen
 - Motivation – Warum ist parallele Verarbeitung notwendig?
