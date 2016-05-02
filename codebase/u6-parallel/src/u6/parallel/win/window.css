@@ -1,0 +1,16 @@
+.root {
+    -fx-base: #999999;
+    -fx-background: #333333;
+    -fx-control-inner-background: white;
+    -fx-font-size:12px;
+    -fx-font-family:Sengoe;
+    -fx-background-color:linear-gradient(#000000 0%, #111111 100%);
+    -fx-font-size:10px;
+    -fx-font-family:Sengoe;
+}
+
+#statusField {
+    -fx-font-size:10px;
+    -fx-font-family:Sengoe;
+    -fx-text-fill: white;
+}
