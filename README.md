@@ -91,12 +91,15 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u5-mvp/">Musterlösung 5<img src="docbase/U-05-GUI-Komponenten.png" alt="Musterloesung mit Black CSS Theme"></a>
 
-#### 6. Parallelverarbeitung in grafischen Oberflächen
+#### 6. <a href="docbase/06-Parallelitaet.pdf">Parallelverarbeitung in grafischen Oberflächen</a>
+
 - Motivation – Warum ist parallele Verarbeitung notwendig?
 - Umgang mit lang laufenden Aktionen (asynchrone Verarbeitung)
 - Technische Umsetzung
 - Die Worker Schnittstelle in JavaFX
 - Die Klassen Task und Service
+
+<a href="docbase/U-06-Parallelitaet.pdf">Übungsblatt 6</a>
 
 #### 7. Zentrale Anwendungssteuerung – Der Eventbus
 - Motivation
