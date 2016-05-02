@@ -91,21 +91,30 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u5-mvp/">Musterlösung 5<img src="docbase/U-05-GUI-Komponenten.png" alt="Musterloesung mit Black CSS Theme"></a>
 
-#### 6. Parallelverarbeitung in grafischen Oberflächen
+#### 6. <a href="docbase/06-Parallelitaet.pdf">Parallelverarbeitung in grafischen Oberflächen</a>
+
 - Motivation – Warum ist parallele Verarbeitung notwendig?
 - Umgang mit lang laufenden Aktionen (asynchrone Verarbeitung)
 - Technische Umsetzung
 - Die Worker Schnittstelle in JavaFX
 - Die Klassen Task und Service
 
-#### 7. Zentrale Anwendungssteuerung – Der Eventbus
+<a href="docbase/U-06-Parallelitaet.pdf">Übungsblatt 6</a>
+
+#### 7. Test von grafischen Oberflächen - Gastvortrag: Mario-Leander Reimer
+- Manuelles Testen und Test-Driven-Development
+- Behavior-Driven-Test-Development
+- Das Page-Objekt-Muster
+- Testautomation bei JavaFX Oberflächen
+
+#### 8. Zentrale Anwendungssteuerung – Der Eventbus
 - Motivation
 - Das Publish-Subscriber Muster
 - Technische Umsetzung
 - Ein minimaler Eventbus
 - Subscription als Annotation
 
-#### 8. Anwendungsarchitektur
+#### 9. Anwendungsarchitektur
 - 2-Tier und 3-Tier Architekturen
 - Thin-, FAT- und Smart/Rich-Clients
 - Schichten-, Säulen und Komponentenarchitekturen
@@ -113,17 +122,12 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Trennung von Businesslogik und Oberflächenlogik
 - Umsetzung einer Kundensuche mit JavaFX
 
-#### 9. Grafische Oberflächen im Browser
+#### 10. Grafische Oberflächen im Browser
 - Typen von Weboberflächen (Web 1.0, 2.0, 3.0)
 - Vor- und Nachteile der heute gängigen Architekturen
 - Technische Umsetzung
 - CRUD Anwendung mit HTML5 und AngularJS
 
-#### 10. Test von grafischen Oberflächen
-- Manuelles Testen und Test-Driven-Development
-- Behavior-Driven-Test-Development
-- Das Page-Objekt-Muster
-- Testautomation bei JavaFX Oberflächen
 
 
 ### Literatur
