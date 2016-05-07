@@ -9,16 +9,16 @@ Solide Kenntnisse der objektorientierten Programmierung in Java
 
 ### Modulziele/Angestrebte Lernergebnisse
 
-Die Studierenden erlernen die ergonomische Gestaltung, den Entwurf und die Programmierung grafischer Oberflächen. Sie können eine Oberfläche so gestalten, dass ein Benutzer damit effektiv und effizient arbeiten kann. Sie können Desktop-Technologien wie JavaFX sachgerecht anwenden. Die Studierenden verstehen die zugrunde liegenden Architekturkonzepte und können diese Technologien einordnen und bewerten. Weiter erhalten sie einen tiefen Einblick in die Grundlagen der Software-Architektur von Systemen 
+Die Studierenden erlernen die ergonomische Gestaltung, den Entwurf und die Programmierung grafischer Oberflächen. Sie können eine Oberfläche so gestalten, dass ein Benutzer damit effektiv und effizient arbeiten kann. Sie können Desktop-Technologien wie JavaFX sachgerecht anwenden. Die Studierenden verstehen die zugrunde liegenden Architekturkonzepte und können diese Technologien einordnen und bewerten. Weiter erhalten sie einen tiefen Einblick in die Grundlagen der Software-Architektur von Systemen
 mit graphischen Oberflächen.
 
 ## Inhaltsübersicht
 
 Die Veranstaltung hat drei Schwerpunkte: Entwurf und Architektur von Anwendungen mit grafischer Benutzeroberfläche. Überblick über aktuelle Technologien, Werkzeuge und Methoden für den Bau von Anwendungen mit umfangreichen Anforderungen an die Bedienbarkeit und Interaktion. Praktisches Anwenden der erlernten Techniken im Rahmen von Übungen.
-Der größte Teil der Veranstaltung verwendet JavaFX. Der Schwerpunkt liegt nicht im Erlernen des eher zufälligen JavaFX-APIs, sondern in der Vermittlung der grundsätzlichen Ideen und Entwurfsmuster. Besonderes Gewicht liegt auf Standardfragen der täglichen 
+Der größte Teil der Veranstaltung verwendet JavaFX. Der Schwerpunkt liegt nicht im Erlernen des eher zufälligen JavaFX-APIs, sondern in der Vermittlung der grundsätzlichen Ideen und Entwurfsmuster. Besonderes Gewicht liegt auf Standardfragen der täglichen
 Praxis (z.B. Bestätigen/Verwerfen, Data-Binding, Internationalisierung, Nebenläufigkeit und Anwendungsarchitektur). Im Rahmen von Studienarbeiten werden weitere moderne Technologie wie beispielweise .NET/WPF, Android oder HTML5 betrachtet.
 
-Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte statt. 
+Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte statt.
 
 ### Inhalt
 
@@ -45,8 +45,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Grafischer Entwurf - Methoden und Werkzeuge (Styleguides, Mockups)
 - Dynamisches Layout – Konzepte und Grundlagen
 - Einführung in JavaFX
-- Komponenten und Container - Exkurs Composite-Muster 
-- Layout-Management 
+- Komponenten und Container - Exkurs Composite-Muster
+- Layout-Management
 
 <a href="docbase/U-02-Gridlayout.pdf">Übungsblatt 2</a>
 
@@ -106,6 +106,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Behavior-Driven-Test-Development
 - Das Page-Objekt-Muster
 - Testautomation bei JavaFX Oberflächen
+
+<a href="docbase/U-07-Testing.pdf">Übungsblatt 7</a>
 
 #### 8. Zentrale Anwendungssteuerung – Der Eventbus
 - Motivation
