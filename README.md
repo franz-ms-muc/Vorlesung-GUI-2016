@@ -109,6 +109,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-07-Testing.pdf">Übungsblatt 7</a>
 
+# ACHTUNG: Die Vorlesung am 23.05.2016 entfällt. Der nächste Termin ist der 30.05.2016.
+
 #### 8. Zentrale Anwendungssteuerung – Der Eventbus
 - Motivation
 - Das Publish-Subscriber Muster
