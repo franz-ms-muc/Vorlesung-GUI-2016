@@ -101,7 +101,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-06-Parallelitaet.pdf">Übungsblatt 6</a>
 
-#### 7. Test von grafischen Oberflächen - Gastvortrag: Mario-Leander Reimer
+#### 7. <a href="docbase/07-Testgetriebene-Entwicklung-von-GUIs.pdf">Test von grafischen Oberflächen - Gastvortrag: Mario-Leander Reimer</a>
 - Manuelles Testen und Test-Driven-Development
 - Behavior-Driven-Test-Development
 - Das Page-Objekt-Muster
@@ -109,14 +109,14 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-07-Testing.pdf">Übungsblatt 7</a>
 
-# ACHTUNG: Die Vorlesung am 23.05.2016 entfällt. Der nächste Termin ist der 30.05.2016.
-
-#### 8. Zentrale Anwendungssteuerung – Der Eventbus
+#### 8. <a href="docbase/08-EventBus.pdf">Zentrale Anwendungssteuerung – Der Eventbus</a>
 - Motivation
 - Das Publish-Subscriber Muster
 - Technische Umsetzung
 - Ein minimaler Eventbus
 - Subscription als Annotation
+
+<a href="docbase/U-08-EventBus.pdf">Übungsblatt 8</a>
 
 #### 9. Anwendungsarchitektur
 - 2-Tier und 3-Tier Architekturen
