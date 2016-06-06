@@ -118,13 +118,15 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-08-EventBus.pdf">Übungsblatt 8</a>
 
-#### 9. Anwendungsarchitektur
+#### 9. <a href="docbase/09-Architektur.pdf">Anwendungsarchitektur</a>
 - 2-Tier und 3-Tier Architekturen
 - Thin-, FAT- und Smart/Rich-Clients
 - Schichten-, Säulen und Komponentenarchitekturen
 - Technische Umsetzung
 - Trennung von Businesslogik und Oberflächenlogik
 - Umsetzung einer Kundensuche mit JavaFX
+
+<a href="docbase/U-09-Architektur.pdf">Übungsblatt 9</a>
 
 #### 10. Grafische Oberflächen im Browser
 - Typen von Weboberflächen (Web 1.0, 2.0, 3.0)
