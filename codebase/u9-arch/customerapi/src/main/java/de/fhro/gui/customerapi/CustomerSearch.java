@@ -11,7 +11,7 @@
  *         Copyright:    Hochschule Rosenheim
  * _____________________________________________________________________________ 
  */
-package de.fhro.gui.customercore.api;
+package de.fhro.gui.customerapi;
 
 import java.util.List;
 

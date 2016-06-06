@@ -14,8 +14,8 @@
 package de.fhro.gui.customerui;
 
 import de.fhro.gui.common.Registry;
-import de.fhro.gui.customercore.api.CustomerDto;
-import de.fhro.gui.customercore.api.CustomerSearch;
+import de.fhro.gui.customerapi.CustomerDto;
+import de.fhro.gui.customerapi.CustomerSearch;
 import java.util.List;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -35,9 +35,10 @@ public class CustomerController {
     @FXML
     private TextField search;
 
+    // make sure: beans.xml exists in customercore
     private final CustomerSearch customerSearch = Registry.getService(CustomerSearch.class);
 
-    public void searchCustomer(ActionEvent e) {
+    public void searchCustomer(ActionEvent e) {        
         List<CustomerDto> dto = customerSearch.searchCustomers(search.getText());
         list.getItems().clear();
         list.getItems().addAll(dto);

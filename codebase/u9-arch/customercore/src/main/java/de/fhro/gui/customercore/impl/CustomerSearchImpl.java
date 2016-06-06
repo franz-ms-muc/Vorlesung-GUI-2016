@@ -13,8 +13,8 @@
  */
 package de.fhro.gui.customercore.impl;
 
-import de.fhro.gui.customercore.api.CustomerDto;
-import de.fhro.gui.customercore.api.CustomerSearch;
+import de.fhro.gui.customerapi.CustomerDto;
+import de.fhro.gui.customerapi.CustomerSearch;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

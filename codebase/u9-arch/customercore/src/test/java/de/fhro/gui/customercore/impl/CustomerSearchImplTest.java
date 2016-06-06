@@ -14,8 +14,8 @@
 package de.fhro.gui.customercore.impl;
 
 import de.fhro.gui.common.Registry;
-import de.fhro.gui.customercore.api.CustomerDto;
-import de.fhro.gui.customercore.api.CustomerSearch;
+import de.fhro.gui.customerapi.CustomerDto;
+import de.fhro.gui.customerapi.CustomerSearch;
 import java.util.List;
 import org.junit.Test;
 

@@ -19,6 +19,7 @@
             <artifactId>customercore</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>jar</type>
+            <scope>runtime</scope> <!-- avoids using implementation in code -->
         </dependency>    
         <dependency>
             <groupId>de.fhro.gui</groupId>
@@ -30,6 +31,12 @@
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-se</artifactId>
             <version>1.0.1-Final</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>de.fhro.gui</groupId>
+            <artifactId>customerapi</artifactId>
+            <version>1.0-SNAPSHOT</version>
             <type>jar</type>
         </dependency>
     </dependencies>
