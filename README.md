@@ -101,6 +101,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-06-Parallelitaet.pdf">Übungsblatt 6</a>
 
+<a href="codebase/u6-parallel/">Musterlösung 6</a>
+
 #### 7. <a href="docbase/07-Testgetriebene-Entwicklung-von-GUIs.pdf">Test von grafischen Oberflächen - Gastvortrag: Mario-Leander Reimer</a>
 - Manuelles Testen und Test-Driven-Development
 - Behavior-Driven-Test-Development
@@ -118,6 +120,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-08-EventBus.pdf">Übungsblatt 8</a>
 
+<a href="codebase/u8-eventbus/">Musterlösung 8</a>
+
 #### 9. <a href="docbase/09-Architektur.pdf">Anwendungsarchitektur</a>
 - 2-Tier und 3-Tier Architekturen
 - Thin-, FAT- und Smart/Rich-Clients
@@ -127,6 +131,8 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - Umsetzung einer Kundensuche mit JavaFX
 
 <a href="docbase/U-09-Architektur.pdf">Übungsblatt 9</a>
+
+<a href="codebase/u9-arch/">Musterlösung 9</a>
 
 #### 10. Grafische Oberflächen im Browser
 - Typen von Weboberflächen (Web 1.0, 2.0, 3.0)
