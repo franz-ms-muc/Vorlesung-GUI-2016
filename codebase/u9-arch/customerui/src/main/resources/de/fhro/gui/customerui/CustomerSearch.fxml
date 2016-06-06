@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane prefHeight="-1.0" prefWidth="-1.0" xmlns:fx="http://javafx.com/fxml" fx:controller="de.fhro.gui.customerui.CustomerController">
+  <bottom>
+    <ListView fx:id="list" prefHeight="218.0" prefWidth="459.0" />
+  </bottom>
+  <top>
+    <BorderPane prefHeight="-1.0" prefWidth="-1.0">
+      <center>
+        <TextField fx:id="search" prefWidth="174.0" />
+      </center>
+      <right>
+        <Button alignment="BASELINE_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#searchCustomer" prefWidth="-1.0" text="Search Customer" textAlignment="LEFT" />
+      </right>
+    </BorderPane>
+  </top>
+</BorderPane>
