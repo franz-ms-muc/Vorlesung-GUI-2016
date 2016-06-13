@@ -14,7 +14,7 @@
 package de.fhro.gui.customerapi;
 
 /**
- * Customer Transport Object
+ * Customer Transport Object (immutable).
  * @author johannes.weigend
  */
 public class CustomerDto {

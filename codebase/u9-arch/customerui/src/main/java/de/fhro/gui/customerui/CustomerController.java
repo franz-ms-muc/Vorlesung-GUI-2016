@@ -1,7 +1,7 @@
 /*
  * _____________________________________________________________________________
  * 
- *           Project:    GUI 2015
+ *           Project:    GUI 2016
  * _____________________________________________________________________________
  * 
  *        Created by:    Johannes Weigend, QAware GmbH
@@ -37,7 +37,7 @@ public class CustomerController {
 
     // make sure that beans.xml exists in the customercore jar.
     
-    // Does not work!: private final CustomerSearch customerSearch = new CustomerSearchImpl();
+    // private final CustomerSearch customerSearch = new CustomerSearchImpl();
     
     private final CustomerSearch customerSearch = Registry.getService(CustomerSearch.class);
 
