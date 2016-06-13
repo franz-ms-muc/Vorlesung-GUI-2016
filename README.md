@@ -141,7 +141,11 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 - CRUD Anwendung mit HTML5 und AngularJS
 
 <a href="http://www.screencast.com/t/BIGU0kuj">Demo</a>
+
 <a href="https://github.com/jweigend/JEEAngularCRUD">Code</a>
+
+<a href="docbase/U-10-Web.pdf">Beschreibung</a>
+
 
 
 ### Literatur
