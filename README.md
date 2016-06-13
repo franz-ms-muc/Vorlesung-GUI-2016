@@ -134,12 +134,14 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="codebase/u9-arch/">Musterlösung 9</a>
 
-#### 10. Grafische Oberflächen im Browser
+#### 10. <a href="docbase/10-Web-UI.pdf">Grafische Oberflächen im Browser</a>
 - Typen von Weboberflächen (Web 1.0, 2.0, 3.0)
 - Vor- und Nachteile der heute gängigen Architekturen
 - Technische Umsetzung
 - CRUD Anwendung mit HTML5 und AngularJS
 
+<a href="http://www.screencast.com/t/BIGU0kuj">Demo</a>
+<a href="https://github.com/jweigend/JEEAngularCRUD">Code</a>
 
 
 ### Literatur
