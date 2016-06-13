@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- *
+ * Implementation of the CustomerSearch interface with a static list.
  * @author johannes.weigend
  */
 public class CustomerSearchImpl implements CustomerSearch {

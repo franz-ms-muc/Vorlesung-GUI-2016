@@ -1,11 +1,11 @@
 /*
  * _____________________________________________________________________________
  * 
- *           Project:    GUI 2015
+ *           Project:    GUI 2016
  * _____________________________________________________________________________
  * 
  *        Created by:    Johannes Weigend, QAware GmbH
- *     Creation date:    March - July 2015
+ *     Creation date:    March - July 2016
  * _____________________________________________________________________________
  * 
  *         Copyright:    Hochschule Rosenheim
@@ -20,5 +20,11 @@ import java.util.List;
  * @author johannes.weigend
  */
 public interface CustomerSearch {
+    
+    /**
+     * Search for customers by matching the name with a given regex query string.
+     * @param query the regex query string.
+     * @return a list of customers - never null.
+     */
     List<CustomerDto> searchCustomers(String query);
 }

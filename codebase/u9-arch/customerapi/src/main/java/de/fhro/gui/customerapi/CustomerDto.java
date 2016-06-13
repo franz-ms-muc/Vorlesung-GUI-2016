@@ -1,11 +1,11 @@
 /*
  * _____________________________________________________________________________
  * 
- *           Project:    GUI 2015
+ *           Project:    GUI 2016
  * _____________________________________________________________________________
  * 
  *        Created by:    Johannes Weigend, QAware GmbH
- *     Creation date:    March - July 2015
+ *     Creation date:    March - July 2016
  * _____________________________________________________________________________
  * 
  *         Copyright:    Hochschule Rosenheim
