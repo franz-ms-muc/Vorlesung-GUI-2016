@@ -12,7 +12,7 @@
   _____________________________________________________________________________ 
  */
 
-package u6.parallel.chart;
+package u8.parallel.chart;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

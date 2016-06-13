@@ -11,7 +11,7 @@
           License:      Apache License 2.0
   _____________________________________________________________________________ 
  */
-package u6.parallel.win;
+package u8.parallel.win;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

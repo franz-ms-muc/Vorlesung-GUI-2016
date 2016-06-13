@@ -1,0 +1,7 @@
+.root {
+    -fx-base: #999999;
+    -fx-background: #111111;
+    -fx-control-inner-background: white;
+    -fx-font-size:12px;
+    -fx-font-family:Sengoe;
+}

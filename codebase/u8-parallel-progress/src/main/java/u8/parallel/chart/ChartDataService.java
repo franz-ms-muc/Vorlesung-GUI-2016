@@ -12,7 +12,7 @@
   _____________________________________________________________________________ 
  */
 
-package u6.parallel.chart;
+package u8.parallel.chart;
 
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;

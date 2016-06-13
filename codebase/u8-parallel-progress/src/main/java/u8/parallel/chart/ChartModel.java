@@ -11,12 +11,12 @@
           License:      Apache License 2.0
   _____________________________________________________________________________ 
  */
-package u6.parallel.chart;
+package u8.parallel.chart;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.chart.XYChart;
-import u6.parallel.header.HeaderSettingsModel;
+import u8.parallel.header.HeaderSettingsModel;
 
 /**
  * Model

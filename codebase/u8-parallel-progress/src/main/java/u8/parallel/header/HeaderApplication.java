@@ -11,7 +11,7 @@
           License:      Apache License 2.0
   _____________________________________________________________________________ 
  */
-package u6.parallel.header;
+package u8.parallel.header;
 
 import java.io.IOException;
 import javafx.application.Application;
