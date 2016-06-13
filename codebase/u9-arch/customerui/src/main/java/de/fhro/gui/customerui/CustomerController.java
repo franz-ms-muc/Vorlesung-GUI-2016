@@ -35,7 +35,10 @@ public class CustomerController {
     @FXML
     private TextField search;
 
-    // make sure: beans.xml exists in customercore
+    // make sure that beans.xml exists in the customercore jar.
+    
+    // Does not work!: private final CustomerSearch customerSearch = new CustomerSearchImpl();
+    
     private final CustomerSearch customerSearch = Registry.getService(CustomerSearch.class);
 
     public void searchCustomer(ActionEvent e) {        

@@ -22,8 +22,10 @@ import java.util.List;
 public interface CustomerSearch {
     
     /**
-     * Search for customers by matching the name with a given regex query string.
-     * @param query the regex query string.
+     * Search for customers by matching the name with a given query string.
+     * @param query the syntax and semantic of the query depends on the 
+     * implementation component. Implementation components can support different 
+     * query languges.
      * @return a list of customers - never null.
      */
     List<CustomerDto> searchCustomers(String query);
