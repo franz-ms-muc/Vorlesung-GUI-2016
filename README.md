@@ -146,6 +146,12 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-10-Web.pdf">Beschreibung</a>
 
+#### 11. <a href="todo">Migration von Oberflächencode</a>
+- Migration vs Neubau
+- Von Swing nach JavaFX
+- VUI - Das virtuelle User Interface
+
+<a href="docbase/U-09-Architektur.pdf">Übungsblatt 11</a>
 
 
 ### Literatur
