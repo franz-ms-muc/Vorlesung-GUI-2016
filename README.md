@@ -153,6 +153,7 @@ Begleitend zur Vorlesung finden Übungen zur Vertiefung der erlernten Konzepte s
 
 <a href="docbase/U-11-Migration.pdf">Übungsblatt 11</a>
 
+#### 12. <a href="docbase/U-12-Pruefungsvorbereitung.pdf">Pruefungsvorbereitung</a>
 
 ### Literatur
 
