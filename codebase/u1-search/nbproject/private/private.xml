@@ -4,5 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="Empty"/>
         <group name="GUI2016"/>
+        <group>
+            <file>file:/C:/git/hr/Vorlesung-GUI-2016/codebase/u1-search/src/de/hsro/gui/u1/SearchView.java</file>
+            <file>file:/C:/git/hr/Vorlesung-GUI-2016/codebase/u1-search/src/de/hsro/gui/u1/SearchApplication.java</file>
+        </group>
     </open-files>
 </project-private>
